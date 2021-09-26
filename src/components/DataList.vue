@@ -6,6 +6,8 @@
       :loading="payload.loading"
       class="elevation-1"
     >
+    <template v-slot:footer>
+    </template>
     </v-data-table>
   </div>
 </template>
